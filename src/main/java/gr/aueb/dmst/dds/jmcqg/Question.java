@@ -12,7 +12,7 @@ public class Question {
     /** Question's category (class name) */
     private String category;
 
-    /** Question template with {value} elemements */
+    /** Question template with {value} elements */
     private String template;
 
     /** Replacements for template elements */
@@ -99,7 +99,7 @@ public class Question {
         return result.toString();
     }
 
-    /** Return an interator over the question's possible answers */
+    /** Return an iterator over the question's possible answers */
     public List<Object> getAnswers() {
         return Collections.unmodifiableList(answers);
     }

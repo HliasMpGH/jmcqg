@@ -32,7 +32,7 @@ public class Cli {
                     .replace("}", "\\}");
     }
 
-    /** Replace HTML special characters with their escpaed version */
+    /** Replace HTML special characters with their escaped version */
     public static String escapeHtml(String input) {
         return input.replace("&", "&amp;")
                     .replace("<", "&lt;")
