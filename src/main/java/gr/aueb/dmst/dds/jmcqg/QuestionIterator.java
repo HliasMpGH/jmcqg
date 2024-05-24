@@ -13,8 +13,6 @@ import org.reflections.util.ConfigurationBuilder;
 import org.reflections.util.ClasspathHelper;
 import org.reflections.util.FilterBuilder;
 
-import gr.aueb.dmst.dds.jmcqg.Question;
-
 public class QuestionIterator implements Iterable<Supplier<Question>>,
        Iterator<Supplier<Question>> {
     private Iterator<Class<?>> classIterator;

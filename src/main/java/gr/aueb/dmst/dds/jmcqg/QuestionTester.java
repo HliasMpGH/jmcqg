@@ -2,7 +2,6 @@ package gr.aueb.dmst.dds.jmcqg;
 
 import java.io.File;
 import java.io.IOException;
-import java.io.StringWriter;
 import java.lang.reflect.Method;
 import java.net.URL;
 import java.net.URLClassLoader;
@@ -10,18 +9,13 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Arrays;
-import java.util.function.Supplier;
 import java.util.HashSet;
 import java.util.List;
 import java.util.stream.Stream;
-import java.util.Vector;
 import javax.tools.JavaCompiler;
 import javax.tools.JavaFileObject;
 import javax.tools.StandardJavaFileManager;
 import javax.tools.ToolProvider;
-
-import gr.aueb.dmst.dds.jmcqg.Question;
-import gr.aueb.dmst.dds.jmcqg.QuestionException;
 
 public class QuestionTester {
 

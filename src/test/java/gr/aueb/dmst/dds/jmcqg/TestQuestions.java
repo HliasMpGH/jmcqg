@@ -12,17 +12,10 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.fail;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.ValueSource;
 import org.junit.jupiter.params.provider.MethodSource;
 
-import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import gr.aueb.dmst.dds.jmcqg.Question;
-import gr.aueb.dmst.dds.jmcqg.QuestionException;
-import gr.aueb.dmst.dds.jmcqg.QuestionIterator;
-import gr.aueb.dmst.dds.jmcqg.QuestionTester;
 
 public class TestQuestions {
     /** Number of tests for each question */

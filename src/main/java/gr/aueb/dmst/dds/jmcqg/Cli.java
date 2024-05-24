@@ -1,7 +1,6 @@
 package gr.aueb.dmst.dds.jmcqg;
 
 import java.io.ByteArrayInputStream;
-import java.awt.image.BufferedImage;
 import java.io.FileOutputStream;
 import java.io.PrintStream;
 import java.io.UnsupportedEncodingException;
@@ -11,13 +10,6 @@ import javax.imageio.ImageIO;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 import java.io.IOException;
-
-import gr.aueb.dmst.dds.jmcqg.Util;
-import gr.aueb.dmst.dds.jmcqg.Imager;
-import gr.aueb.dmst.dds.jmcqg.Question;
-import gr.aueb.dmst.dds.jmcqg.QuestionException;
-import gr.aueb.dmst.dds.jmcqg.QuestionIterator;
-import gr.aueb.dmst.dds.jmcqg.QuestionTester;
 
 /** Generate questions and answers in diverse formats */
 public class Cli {
